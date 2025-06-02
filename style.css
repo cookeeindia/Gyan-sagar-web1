@@ -1,0 +1,13 @@
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #fff;
+}
+h1, h2 {
+    color: #000;
+}
+input, button {
+    padding: 10px;
+    margin: 5px;
+}

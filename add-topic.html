@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html lang="gu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>વિષય ઉમેરો</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>વિષય ઉમેરો</h2>
+    <form id="topic-form">
+        <input type="text" id="title" placeholder="વિષય શીર્ષક" required><br>
+        <input type="text" id="book" placeholder="પુસ્તકનું નામ" required><br>
+        <input type="number" id="page" placeholder="પૃષ્ઠ નં" required><br>
+        <input type="text" id="year" maxlength="3" placeholder="વર્ષ"><br>
+        <button type="submit">સેવ કરો</button>
+    </form>
+    <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-firestore.js"></script>
+    <script src="firebase-config.js"></script>
+    <script src="add-topic.js"></script>
+</body>
+</html>
