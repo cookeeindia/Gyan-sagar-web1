@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="gu">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>જ્ઞાન સાગર</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>જ્ઞાન સાગર</h1>
+    <div class="search-box">
+      <input type="text" id="searchInput" placeholder="શોધો..." />
+      <button onclick="searchTopics()">
+        <img src="search-icon.svg" alt="શોધો" />
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <div id="categoryContainer"></div>
+    <button onclick="window.location.href='form.html'" class="add-button">વિષય ઉમેરો</button>
+  </main>
+
+  <script src="firebase-config.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

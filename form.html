@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="gu">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>વિષય ઉમેરો</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header><h1>વિષય ઉમેરો</h1></header>
+  <main>
+    <form id="topicForm">
+      <input type="text" id="topic" placeholder="વિષય" required />
+      <select id="book">
+        <option value="">પુસ્તક પસંદ કરો</option>
+        <option value="શ્રાદ્ધભાગ-1">શ્રાદ્ધભાગ-1</option>
+        <option value="શ્રાદ્ધભાગ-2">શ્રાદ્ધભાગ-2</option>
+        <option value="વાલ્મિકી રામાયણ દર્શન">વાલ્મિકી રામાયણ દર્શન</option>
+        <option value="શ્રી કૃષ્ણ જીવન દર્શન">શ્રી કૃષ્ણ જીવન દર્શન</option>
+        <option value="ગીતા પાથેય">ગીતા પાથેય</option>
+        <option value="જીવન તીર્થ">જીવન તીર્થ</option>
+        <option value="તુલસીદલ">તુલસીદલ</option>
+        <option value="તત્વજ્ઞાન">તત્વજ્ઞાન</option>
+      </select>
+      <div id="extraFields"></div>
+      <input type="number" id="page" placeholder="પૃષ્ઠ નં." required maxlength="4" />
+      <select id="paragraph">
+        <option value="">પેરાગ્રાફ પસંદ કરો</option>
+        <option value="1">1</option><option value="2">2</option>
+        <option value="3">3</option><option value="4">4</option>
+        <option value="5">5</option><option value="6">6</option>
+        <option value="7">7</option><option value="8">8</option>
+        <option value="9">9</option><option value="10">10</option>
+      </select>
+      <input type="text" id="keywords" placeholder="કીવર્ડ" required />
+      <input type="text" id="category" placeholder="કેટેગરી (વેચેલી, અલગ કરો)" required />
+      <button type="submit">સેવ કરો</button>
+    </form>
+  </main>
+  <script src="firebase-config.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
