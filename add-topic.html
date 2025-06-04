@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="gu">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>વિષય ઉમેરો</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>વિષય ઉમેરો</h1>
+  </header>
+  <main>
+    <form id="topicForm">
+      <input type="text" placeholder="વિષયનું શીર્ષક" id="title" required />
+      <input type="text" placeholder="પુસ્તકનું નામ" id="bookName" required />
+      <input type="number" placeholder="પાનું નંબર" id="pageNumber" />
+      <textarea placeholder="પેરાગ્રાફ" id="paragraph"></textarea>
+      <input type="text" placeholder="કીવર્ડ્સ" id="keywords" />
+      <select id="category">
+        <option>સાહિત્ય</option>
+        <option>વિજ્ઞાન</option>
+        <option>ઇતિહાસ</option>
+        <option>પ્રેરણા</option>
+      </select>
+      <button type="submit">સેવ કરો</button>
+    </form>
+  </main>
+  <script src="add-topic.js"></script>
+</body>
+</html>

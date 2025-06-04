@@ -1,0 +1,61 @@
+body {
+  font-family: sans-serif;
+  background: white;
+  margin: 0;
+  padding: 0;
+}
+header {
+  padding: 1em;
+  text-align: center;
+}
+h1 {
+  font-size: 2em;
+}
+#searchBox {
+  width: 80%;
+  padding: 0.5em;
+  margin: 1em auto;
+  display: block;
+}
+#categories {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1em;
+  padding: 1em;
+}
+.category-card {
+  background: #f0f0f0;
+  padding: 1em;
+  border-radius: 12px;
+  width: 100px;
+  text-align: center;
+}
+.category-card img {
+  width: 32px;
+  height: 32px;
+}
+.button-container {
+  text-align: center;
+  margin: 1em;
+}
+.add-btn {
+  background: #007bff;
+  color: white;
+  padding: 0.6em 1.2em;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 1em;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  padding: 1em;
+}
+input, textarea, select, button {
+  padding: 0.8em;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
