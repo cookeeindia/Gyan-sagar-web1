@@ -1,61 +1,52 @@
 body {
   font-family: sans-serif;
-  background: white;
+  background-color: white;
   margin: 0;
   padding: 0;
 }
 header {
-  padding: 1em;
   text-align: center;
+  padding: 1rem;
+  background: #f0f0f0;
 }
 h1 {
-  font-size: 2em;
+  font-size: 2rem;
+  margin: 0;
 }
-#searchBox {
-  width: 80%;
-  padding: 0.5em;
-  margin: 1em auto;
-  display: block;
+.search-container {
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
 }
-#categories {
+.search-container input {
+  width: 70%;
+  padding: 0.5rem;
+}
+.search-container button {
+  padding: 0.5rem;
+}
+.category-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 1em;
-  padding: 1em;
+  gap: 1rem;
+  margin: 1rem;
 }
-.category-card {
-  background: #f0f0f0;
-  padding: 1em;
-  border-radius: 12px;
+.category-container .card {
+  padding: 1rem;
+  background: #e0e0e0;
+  border-radius: 8px;
   width: 100px;
   text-align: center;
 }
-.category-card img {
-  width: 32px;
-  height: 32px;
-}
-.button-container {
+.add-topic-btn {
   text-align: center;
-  margin: 1em;
+  margin: 2rem;
 }
-.add-btn {
-  background: #007bff;
+.add-topic-btn a {
+  padding: 0.7rem 1.2rem;
+  background: #4caf50;
   color: white;
-  padding: 0.6em 1.2em;
   text-decoration: none;
-  border-radius: 8px;
-  font-size: 1em;
-}
-form {
-  display: flex;
-  flex-direction: column;
-  gap: 1em;
-  padding: 1em;
-}
-input, textarea, select, button {
-  padding: 0.8em;
-  font-size: 1em;
-  border: 1px solid #ccc;
-  border-radius: 8px;
+  border-radius: 4px;
 }
