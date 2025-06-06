@@ -1,52 +1,70 @@
+
 body {
-  font-family: sans-serif;
+  font-family: 'Noto Sans Gujarati', sans-serif;
   background-color: white;
   margin: 0;
-  padding: 0;
-}
-header {
-  text-align: center;
-  padding: 1rem;
-  background: #f0f0f0;
-}
-h1 {
-  font-size: 2rem;
-  margin: 0;
-}
-.search-container {
-  display: flex;
-  justify-content: center;
-  margin: 1rem;
-}
-.search-container input {
-  width: 70%;
-  padding: 0.5rem;
-}
-.search-container button {
-  padding: 0.5rem;
-}
-.category-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 1rem;
-  margin: 1rem;
-}
-.category-container .card {
-  padding: 1rem;
-  background: #e0e0e0;
-  border-radius: 8px;
-  width: 100px;
+  padding: 20px;
   text-align: center;
 }
-.add-topic-btn {
-  text-align: center;
-  margin: 2rem;
+
+.title {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #004d40;
 }
-.add-topic-btn a {
-  padding: 0.7rem 1.2rem;
-  background: #4caf50;
+
+.search-bar {
+  margin-bottom: 20px;
+}
+
+.search-bar input {
+  padding: 10px;
+  width: 60%;
+  font-size: 16px;
+}
+
+.search-bar button {
+  padding: 10px 15px;
+  font-size: 16px;
+  background-color: #00796b;
   color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.category-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 15px;
+  margin: 20px 0;
+}
+
+.category-card {
+  background-color: #e0f2f1;
+  border-radius: 12px;
+  padding: 15px;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.category-card img {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+.add-button {
+  margin-top: 20px;
+}
+
+.add-button a {
+  background-color: #00796b;
+  color: white;
+  padding: 10px 18px;
+  font-size: 16px;
   text-decoration: none;
-  border-radius: 4px;
+  border-radius: 8px;
 }
