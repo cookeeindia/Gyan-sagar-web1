@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="gu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>વિષય ઉમેરો</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1 class="title">વિષય ઉમેરો</h1>
+  <form id="addTopicForm">
+    <input type="text" id="topicTitle" placeholder="વિષય શીર્ષક" required>
+    <input type="text" id="bookName" placeholder="પુસ્તકનું નામ" required>
+    <input type="number" id="pageNumber" placeholder="પાનાં નંબર">
+    <textarea id="paragraph" placeholder="ઉપબંધ લખો..." required></textarea>
+    <input type="text" id="keywords" placeholder="મુખ્ય શબ્દો (અલગ-અલગ vigil comma)">
+    <input type="text" id="category" placeholder="વર્ગ">
+    <button type="submit">સેવ કરો</button>
+  </form>
+  <script src="firebase.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

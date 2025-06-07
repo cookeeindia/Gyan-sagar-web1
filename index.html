@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="gu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>જ્ઞાન સાગર</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1 class="title">જ્ઞાન સાગર</h1>
+
+  <!-- Search Bar -->
+  <div class="search-bar">
+    <input type="text" id="searchInput" placeholder="વિષય શોધો...">
+    <button onclick="performSearch()">🔍</button>
+  </div>
+
+  <!-- Category Grid -->
+  <div class="category-grid">
+    <div class="category-card"><img src="book-icon.svg"> સાહિત્ય</div>
+    <div class="category-card"><img src="science-icon.svg"> વિજ્ઞાન</div>
+    <div class="category-card"><img src="history-icon.svg"> ઈતિહાસ</div>
+    <div class="category-card"><img src="motivation-icon.svg"> પ્રેરણા</div>
+  </div>
+
+  <!-- Bottom Navigation -->
+  <nav class="bottom-nav">
+    <a href="index.html" class="active">હોમ</a>
+    <a href="categories.html">કેટેગરી</a>
+    <a href="add-topic.html">➕ ઉમેરો</a>
+    <a href="books.html">પુસ્તક</a>
+    <a href="profile.html">પ્રોફાઈલ</a>
+  </nav>
+
+  <script src="firebase.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
